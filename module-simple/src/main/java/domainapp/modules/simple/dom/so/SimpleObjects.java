@@ -71,7 +71,12 @@ public class SimpleObjects {
         return simpleObjectRepository.findAll();
     }
 
-
+    @Action(semantics = SemanticsOf.SAFE)
+    public SimpleObjectViewModel findByNameViewModel(
+            final String name
+    ) {
+        return new SimpleObjectViewModel(name);
+    }
 
     public void ping() {
         jpaSupportService.getEntityManager(SimpleObject.class)

@@ -12,6 +12,7 @@
                 <mb3:serviceAction objectType="simple.SimpleObjects" id="findByName"/>
                 <mb3:serviceAction objectType="simple.SimpleObjects" id="findByNameLike"/>
                 <mb3:serviceAction objectType="simple.SimpleObjects" id="listAll"/>
+                <mb3:serviceAction objectType="simple.SimpleObjects" id="findByNameViewModel"/>
             </mb3:section>
         </mb3:menu>
         <mb3:menu unreferencedActions="true">
