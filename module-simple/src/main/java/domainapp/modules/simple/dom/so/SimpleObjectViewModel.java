@@ -1,6 +1,7 @@
 package domainapp.modules.simple.dom.so;
 
 import lombok.AccessLevel;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import org.apache.causeway.applib.annotation.*;
@@ -24,6 +25,7 @@ import java.util.stream.Collectors;
 public class SimpleObjectViewModel {
 
     @Property
+    @Getter
     protected String name;
 
     public String title() {
